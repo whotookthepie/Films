@@ -1,20 +1,1355 @@
 [
   {
-    "title": "Test",
-    "year": 2010,
-    "director": "Christopher Nolan",
-    "locations": ["Los Angeles, CA, USA", "Tokyo, Japan", "Paris, France"]
+    "Title": "The Godfather",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Drama": "Y"
   },
   {
-    "title": "La La Land",
-    "year": 2016,
-    "director": "Damien Chazelle",
-    "locations": ["Los Angeles, CA, USA", "Hollywood, CA, USA"]
+    "Title": "Casino",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Drama": "Y"
   },
   {
-    "title": "The Dark Knight",
-    "year": 2008,
-    "director": "Christopher Nolan",
-    "locations": ["Chicago, IL, USA", "London, UK"]
+    "Title": "Scarface",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Drama": "Y"
+  },
+  {
+    "Title": "Apocalypto",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Epic": "Y",
+    "Historical": "Y"
+  },
+  {
+    "Title": "Troy",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "The Prestige",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Psychological": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Mask of Zorro",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Swashbuckler": "Y"
+  },
+  {
+    "Title": "The Legend of Zorro",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Swashbuckler": "Y"
+  },
+  {
+    "Title": "The Last Samurai",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Epic": "Y",
+    "Historical": "Y"
+  },
+  {
+    "Title": "The Scorpion King",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "The Scorpion King 2",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Reign of Fire",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Kingdom of Heaven",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "300",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "300 Rise of an Empire",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "The Hobbit - The Desolation of Smaug",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "The Lord of the Rings: The Two Towers",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "10,000 BC",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y"
+  },
+  {
+    "Title": "Alexander",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "Mongol",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Epic": "Y",
+    "Historical": "Y",
+    "War": "Y"
+  },
+  {
+    "Title": "Planet of the Apes",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Rise of the Planet of the Apes",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "30-Aug-24",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Dawn of the Planet of the Apes",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "30-Aug-24",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "The Mummy (2016)",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y"
+  },
+  {
+    "Title": "Gladiator",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Epic": "Y"
+  },
+  {
+    "Title": "Exodus",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Epic": "Y"
+  },
+  {
+    "Title": "The Magnificent Seven (2016)",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y"
+  },
+  {
+    "Title": "The Revenant",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Drama": "Y"
+  },
+  {
+    "Title": "Ocean's 8",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Ocean's 11",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Ocean's 12",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Ocean's 13",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "The Italian Job (Original)",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "The Italian Job (Remake)",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "8 Mile",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Drama": "Y",
+    "Music": "Y"
+  },
+  {
+    "Title": "American History X",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Drama": "Y",
+    "Crime": "Y"
+  },
+  {
+    "Title": "Freddy Vs Jason",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Horror": "Y",
+    "Slasher": "Y"
+  },
+  {
+    "Title": "The Dark Tower",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Against the Dark",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Constantine",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y"
+  },
+  {
+    "Title": "The Matrix",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "The Matrix Reloaded",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "The Matrix Revolutions",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "The Matrix Resurrection",
+    "Folder": 1,
+    "Disc": "Blu-Ray",
+    "Added": "",
+    "Watched": "",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Underworld",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Underworld: Evolution",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Underworld: Rise of the Lucan's",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Underworld: Awakening",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Blade",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Blade 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Blade Trinity",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Fantasy": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "Atomic Blonde",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "Kick Ass",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Kick Ass 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Kill Bill",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Crime": "Y",
+    "Martial Arts": "Y"
+  },
+  {
+    "Title": "Kill Bill 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Crime": "Y",
+    "Martial Arts": "Y"
+  },
+  {
+    "Title": "The Expendables",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Expendables 2",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Expendables 3",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Expendables 4",
+    "Folder": "",
+    "Disc": "",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Hostel",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Horror": "Y",
+    "Slasher": "Y"
+  },
+  {
+    "Title": "Hostel Part 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Horror": "Y",
+    "Slasher": "Y"
+  },
+  {
+    "Title": "Hostel Part 3",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Horror": "Y",
+    "Slasher": "Y"
+  },
+  {
+    "Title": "No Escape",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Saw",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Horror": "Y",
+    "Slasher": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Saw 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Horror": "Y",
+    "Slasher": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Saw 3",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Horror": "Y",
+    "Slasher": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Saw 4",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Horror": "Y",
+    "Slasher": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Dawn of the Dead",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Horror": "Y",
+    "Zombie": "Y"
+  },
+  {
+    "Title": "The Texas Chainsaw Massacre",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Horror": "Y",
+    "Slasher": "Y"
+  },
+  {
+    "Title": "Awake",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Manhunt",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Jack Reacher",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Jack Reacher Never Go Back",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Mad Max Fury Road",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Southpaw",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Drama": "Y"
+  },
+  {
+    "Title": "Hustle - S1",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Hustle - S2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Hustle - S3",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Hustle - S4",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Hustle - S5",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Hustle - S6",
+    "Folder": "",
+    "Disc": "",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y",
+    "Heist": "Y"
+  },
+  {
+    "Title": "Promethus",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "The Nice Guys",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y"
+  },
+  {
+    "Title": "The Trip",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Sitcom": "Y"
+  },
+  {
+    "Title": "The Full Monty",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Drama": "Y"
+  },
+  {
+    "Title": "Dynamo Magician Impossible",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "Rain Man",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Drama": "Y"
+  },
+  {
+    "Title": "The Simpsons - Backstage Pass",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Sitcom": "Y"
+  },
+  {
+    "Title": "The Simpsons Movie",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Sitcom": "Y"
+  },
+  {
+    "Title": "The Simpsons - Christmas",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Sitcom": "Y"
+  },
+  {
+    "Title": "Clarkson - Duel",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "Clarkson - Supercar Showdown",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "Clarkson - The Good the Bad and the Ugly",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "James Bond - Goldeneye",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Tomorrow Never Dies",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Die Another Day",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Casino Royale",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Quantum of Solace",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Spectre",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - Skyfall",
+    "Folder": "",
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "James Bond - No Time to Die",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "31/12/21",
+    "Watched": "",
+    "Action": "Y",
+    "Spy": "Y"
+  },
+  {
+    "Title": "Pimp My Ride - S1",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "Pimp My Ride - S2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": ""
+  },
+  {
+    "Title": "Legend",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Drama": "Y"
+  },
+  {
+    "Title": "John Wick",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "John Wick 2",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "John Wick 4",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Girl with a Dragon Tattoo",
+    "Folder": "",
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Third Person",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Drama": "Y"
+  },
+  {
+    "Title": "The Wizard of Oz",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Return to Oz",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Chitty Chitty Bang Bang",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "The Great Race",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y"
+  },
+  {
+    "Title": "Taken",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Taken 2",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "Taken 3",
+    "Folder": 1,
+    "Disc": "Blu-ray",
+    "Added": "Y",
+    "Watched": "",
+    "Action": "Y",
+    "Crime": "Y",
+    "Thriller": "Y"
+  },
+  {
+    "Title": "The Book of Eli",
+    "Folder": 1,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Drama": "Y",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Elektra",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Crime": "Y",
+    "Fantasy": "Y",
+    "Martial Arts": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "The Incredible Hulk",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "Y",
+    "Watched": "Y",
+    "Action": "Y",
+    "Sci-Fi": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Daredevil",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Deadpool",
+    "Folder": 2,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Deadpool 2",
+    "Folder": 2,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Deadpool & Wolverine",
+    "Folder": 2,
+    "Disc": "Blu-ray",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Action": "Y",
+    "Comedy": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Shrek",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Shrek 2",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Wonka",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Mickey Blue Eyes",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Comedy": "Y",
+    "Crime": "Y"
+  },
+  {
+    "Title": "Madagascar",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y"
+  },
+  {
+    "Title": "Madagascar 2",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y"
+  },
+  {
+    "Title": "Madagascar 3",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Comedy": "Y"
+  },
+  {
+    "Title": "District 9",
+    "Folder": 5,
+    "Disc": "DVD",
+    "Added": "10-Jun-25",
+    "Watched": "",
+    "Sci-Fi": "Y"
+  },
+  {
+    "Title": "Batman Begins",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Batman Dark Knight",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Batman Dark Knight Rises",
+    "Folder": 2,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Batman The Movie",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Batman Return to the Batcave",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Iron Man",
+    "Folder": 2,
+    "Disc": "Blu-ray",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Iron Man 2",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Iron Man 3",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Dr Strange",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y",
+    "Fantasy": "Y"
+  },
+  {
+    "Title": "Man of Steel",
+    "Folder": "",
+    "Disc": "",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Avengers Assemble",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Avengers Endgame",
+    "Folder": 2,
+    "Disc": "DVD",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
+  },
+  {
+    "Title": "Avengers Infinity War",
+    "Folder": "",
+    "Disc": "",
+    "Added": "",
+    "Watched": "",
+    "Action": "Y",
+    "Super Hero": "Y"
   }
 ]
