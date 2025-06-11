@@ -1,82 +1,123 @@
-<script type="text/javascript">
-        var gk_isXlsx = false;
-        var gk_xlsxFileLookup = {};
-        var gk_fileData = {};
-        function filledCell(cell) {
-          return cell !== '' && cell != null;
-        }
-        function loadFileData(filename) {
-        if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-            try {
-                var workbook = XLSX.read(gk_fileData[filename], { type: 'base64' });
-                var firstSheetName = workbook.SheetNames[0];
-                var worksheet = workbook.Sheets[firstSheetName];
-
-                // Convert sheet to JSON to filter blank rows
-                var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1, blankrows: false, defval: '' });
-                // Filter out blank rows (rows where all cells are empty, null, or undefined)
-                var filteredData = jsonData.filter(row => row.some(filledCell));
-
-                // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-                var headerRowIndex = filteredData.findIndex((row, index) =>
-                  row.filter(filledCell).length >= filteredData[index + 1]?.filter(filledCell).length
-                );
-                // Fallback
-                if (headerRowIndex === -1 || headerRowIndex > 25) {
-                  headerRowIndex = 0;
-                }
-
-                // Convert filtered JSON back to CSV
-                var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-                csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-                return csv;
-            } catch (e) {
-                console.error(e);
-                return "";
-            }
-        }
-        return gk_fileData[filename] || "";
-        }
-        </script><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Film Locations</title>
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        #filter {
+            margin-bottom: 20px;
+            padding: 10px;
+            width: 200px;
+            font-size: 16px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        .genre {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Film Locations</h1>
-    <div id="film-list" class="film-grid"></div>
-  </div>
-  <script>
-    $(document).ready(function() {
-      $.getJSON('films.json', function(data) {
-        const $filmList = $('#film-list');
-        $.each(data, function(index, film) {
-          let locationHTML = '<ul>';
-          $.each(film.locations, function(i, loc) {
-            locationHTML += `<li>${loc}</li>`;
-          });
-          locationHTML += '</ul>';
-          const filmCard = `
-            <div class="film-card">
-              <h2>${film.title}</h2>
-              <p>Year: ${film.year}</p>
-              <p>Director: ${film.director}</p>
-              <h3>Filming Locations:</h3>
-              ${locationHTML}
-            </div>
-          `;
-          $filmList.append(filmCard);
+    <h1>Movie Collection</h1>
+    <input type="text" id="filter" placeholder="Filter by title...">
+    <table id="movieTable">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Folder</th>
+                <th>Disc</th>
+                <th>Added</th>
+                <th>Watched</th>
+                <th>Genres</th>
+            </tr>
+        </thead>
+        <tbody id="movieBody"></tbody>
+    </table>
+
+    <script>
+        $(document).ready(function() {
+            // Load JSON data from external file
+            $.getJSON('movies.json', function(data) {
+                populateTable(data);
+
+                // Filter functionality
+                $('#filter').on('keyup', function() {
+                    const searchTerm = $(this).val().toLowerCase();
+                    const filteredData = data.filter(movie => 
+                        movie.Title.toLowerCase().includes(searchTerm)
+                    );
+                    populateTable(filteredData);
+                });
+            }).fail(function() {
+                $('#movieBody').html('<tr><td colspan="6" class="no-data">Failed to load movie data.</td></tr>');
+            });
+
+            function populateTable(movies) {
+                const tbody = $('#movieBody');
+                tbody.empty();
+
+                if (movies.length === 0) {
+                    tbody.append('<tr><td colspan="6" class="no-data">No movies found.</td></tr>');
+                    return;
+                }
+
+                movies.forEach(movie => {
+                    // Collect genres
+                    const genres = [
+                        'Action', 'Adventure', 'Comedy', 'Crime', 'Drama', 'Epic', 
+                        'Historical', 'Psychological', 'Thriller', 'Swashbuckler', 
+                        'War', 'Fantasy', 'Sci-Fi', 'Horror', 'Slasher', 'Heist', 
+                        'Music', 'Romance', 'Martial Arts', 'Super Hero', 'Spy', 
+                        'Zombie', 'Sitcom'
+                    ].filter(genre => movie[genre] === 'Y').join(', ');
+
+                    const row = `
+                        <tr>
+                            <td>${movie.Title}</td>
+                            <td>${movie.Folder || '-'}</td>
+                            <td>${movie.Disc || '-'}</td>
+                            <td>${movie.Added || '-'}</td>
+                            <td>${movie.Watched || '-'}</td>
+                            <td class="genre">${genres || '-'}</td>
+                        </tr>
+                    `;
+                    tbody.append(row);
+                });
+            }
         });
-      }).fail(function(jqXHR, textStatus, errorThrown) {
-        console.error('Error loading films:', textStatus, errorThrown);
-        $('#film-list').html('<p class="error">Error loading film data.</p>');
-      });
-    });
-  </script>
+    </script>
 </body>
 </html>
