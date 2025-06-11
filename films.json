@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "locations": ["Los Angeles, CA, USA", "Tokyo, Japan", "Paris, France"]
+  },
+  {
+    "title": "La La Land",
+    "year": 2016,
+    "director": "Damien Chazelle",
+    "locations": ["Los Angeles, CA, USA", "Hollywood, CA, USA"]
+  },
+  {
+    "title": "The Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
+    "locations": ["Chicago, IL, USA", "London, UK"]
+  }
+]
